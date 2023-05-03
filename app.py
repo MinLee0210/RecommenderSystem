@@ -81,7 +81,7 @@ with st.form('my_form'):
 
     if st.form_submit_button('Submit'):
         st.divider()
-        st.header('WE RECOMMEND YOU USING CONTENT_BASED RECOMMENDATION')
+        st.header('WE RECOMMEND MOVIES FOR YOU USING CONTENT_BASED RECOMMENDATION')
         recommends = get_recommendation(user_prefer_list)
         recommend_movies = recommends.iloc[:, [1, 2]]
         st.write(recommend_movies)
