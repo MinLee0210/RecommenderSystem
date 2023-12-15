@@ -1,4 +1,10 @@
-from ..lib import *
+import sys
+import os
+import platform
+from pathlib import Path
+
+import pandas as pd
+import numpy as np
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]  # root directory

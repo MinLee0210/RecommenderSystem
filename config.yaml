@@ -1,0 +1,4 @@
+dataset: 
+  users: ./dataset/users.csv
+  movies: ./dataset/movies.csv
+  ratings: ./dataset/ratings.csv
